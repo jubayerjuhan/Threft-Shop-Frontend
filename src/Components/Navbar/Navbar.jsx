@@ -18,7 +18,7 @@ const Navbar = () => {
         link4Text="Contact Us"
         link1Url="/"
         link2Url="/products"
-        link3Url="/about-us"
+        link3Url="/register"
         link4Url="/contact-us"
         link1Color="#fff"
         link1Family="Inter"
