@@ -1,0 +1,32 @@
+.notfound {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 30vw;
+    object-fit: contain;
+  }
+  .notFoundWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .txtContainer {
+      transform: translateX(-30%) translateY(30%);
+    }
+    h1 {
+      font-size: 3.6rem;
+      font-family: "Rubik", sans-serif;
+      font-weight: 800;
+      color: #e54e6d;
+      // margin: 1rem 0;
+    }
+    h3 {
+      font-family: "Rubik", sans-serif;
+      font-weight: 800;
+      color: #2f2e41;
+      text-align: right;
+    }
+  }
+}

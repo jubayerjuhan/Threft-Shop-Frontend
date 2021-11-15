@@ -1,0 +1,60 @@
+.productAddSideWrapper {
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 4rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    input[type="number"],
+    input[type="text"],
+    select {
+      font-size: clamp(1rem, 2vh, 1.4rem);
+      min-width: 300px;
+      margin: 10px;
+      padding: 10px 0;
+      outline: none;
+      text-indent: 10px;
+      border: none;
+      background-color: rgb(233, 233, 233);
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px;
+      border-radius: 4px;
+    }
+    h3 {
+      font-size: clamp(1.3rem, 2vh, 2rem);
+      padding-bottom: 10px;
+      width: 80%;
+      text-align: center;
+      border-bottom: 1px solid lightgray;
+      color: crimson;
+      margin: 10px 0px;
+      margin-top: 0px;
+    }
+    .file-upload,
+    input[type="submit"] {
+      padding: 10px 30px;
+      margin: 10px 0px;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      background-color: crimson;
+    }
+    .imagePreview {
+      display: flex;
+      flex-wrap: wrap;
+      img {
+        margin: 10px;
+        flex-basis: 40%;
+        height: 50px;
+        object-fit: contain;
+      }
+    }
+  }
+}

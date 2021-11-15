@@ -1,0 +1,55 @@
+.sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 4rem 0px 4rem 0;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.sidebar a img {
+  width: 150px;
+}
+
+.sidebar a p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sidebar a p:hover {
+  color: crimson;
+  border-radius: 0 4px 4px 0;
+  background-color: #d4d4d4;
+}
+
+.sidebar a p:hover svg {
+  color: #949393;
+}
+
+.sidebar a p svg {
+  font-size: 1.5rem;
+  margin-right: 20px;
+  color: #31343c;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+/*# sourceMappingURL=sidebar.css.map */

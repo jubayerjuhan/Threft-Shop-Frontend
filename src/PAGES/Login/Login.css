@@ -1,0 +1,89 @@
+.login {
+  width: 100vmax;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login .paragraph {
+  margin-bottom: 10px;
+}
+
+.login .paragraph a {
+  text-decoration: none;
+  color: crimson;
+}
+
+.login input[type="submit"] {
+  padding: 15px 30px;
+  border-radius: 30px;
+  background: crimson;
+  cursor: pointer;
+  border: 2px solid transparent;
+  color: white;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  font-size: 1rem;
+}
+
+.login input[type="submit"]:hover {
+  background: transparent;
+  border: 2px solid crimson;
+  color: crimson;
+}
+
+.login form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 100px 60px;
+}
+
+.login form .title {
+  margin-bottom: 50px;
+  font-size: clamp(1rem, 5vh, 3rem);
+  color: crimson;
+}
+
+.login form .textInput {
+  border: 1px solid lightgray;
+  padding: 0 20px 0 50px;
+  height: 50px;
+  width: 300px;
+  font-size: clamp(1rem, 1.5vh, 1.2rem);
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.login form svg {
+  font-size: 1.7rem;
+  position: absolute;
+  color: crimson;
+  -webkit-transform: translate(50%, 45%);
+          transform: translate(50%, 45%);
+}
+/*# sourceMappingURL=Login.css.map */

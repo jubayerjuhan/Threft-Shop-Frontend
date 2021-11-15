@@ -1,0 +1,43 @@
+.updateOrderWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 2fr;
+      grid-template-columns: 4fr 2fr;
+}
+
+.updateOrderWrapper .updateSide {
+  padding: 4rem;
+  border-left: 1px solid lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.updateOrderWrapper .updateSide select {
+  font-size: clamp(1rem, 2vh, 1.3rem);
+  height: 50px;
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.updateOrderWrapper .updateSide button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px;
+  padding: none;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: crimson;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=updateorder.css.map */

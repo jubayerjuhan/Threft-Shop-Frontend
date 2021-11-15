@@ -1,0 +1,31 @@
+.updateOrderWrapper {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+
+  .updateSide {
+    padding: 4rem;
+    border-left: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    select {
+      font-size: clamp(1rem, 2vh, 1.3rem);
+      height: 50px;
+      width: 100%;
+      border: 1px solid lightgray;
+      padding: 0.5rem;
+      outline: none;
+    }
+    button {
+      width: 100%;
+      margin-top: 10px;
+      padding: 15px;
+      padding: none;
+      outline: none;
+      border: none;
+      color: white;
+      background-color: crimson;
+      border-radius: 4px;
+    }
+  }
+}

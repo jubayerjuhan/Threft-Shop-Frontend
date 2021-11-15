@@ -1,0 +1,31 @@
+.loaderContainer {
+  width: 100vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.loaderContainer div {
+  height: 10vmax;
+  width: 10vmax;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.705);
+  border-radius: 50%;
+  -webkit-animation: load 900ms linear infinite;
+          animation: load 900ms linear infinite;
+}
+
+@-webkit-keyframes load {
+  to {
+    -webkit-transform: rotateZ(-360deg);
+            transform: rotateZ(-360deg);
+  }
+}
+
+@keyframes load {
+  to {
+    -webkit-transform: rotateZ(-360deg);
+            transform: rotateZ(-360deg);
+  }
+}
+/*# sourceMappingURL=loader.css.map */

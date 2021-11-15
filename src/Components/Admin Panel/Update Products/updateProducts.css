@@ -1,0 +1,86 @@
+.productAddSideWrapper {
+  min-height: 100vh;
+  min-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productAddSideWrapper form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 4rem;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.productAddSideWrapper form input[type="number"],
+.productAddSideWrapper form input[type="text"],
+.productAddSideWrapper form select {
+  font-size: clamp(1rem, 2vh, 1.4rem);
+  min-width: 300px;
+  margin: 10px;
+  padding: 10px 0;
+  outline: none;
+  text-indent: 10px;
+  border: none;
+  background-color: #e9e9e9;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px;
+  border-radius: 4px;
+}
+
+.productAddSideWrapper form h3 {
+  font-size: clamp(1.3rem, 2vh, 2rem);
+  padding-bottom: 10px;
+  width: 80%;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  color: crimson;
+  margin: 10px 0px;
+  margin-top: 0px;
+}
+
+.productAddSideWrapper form .file-upload,
+.productAddSideWrapper form input[type="submit"] {
+  padding: 10px 30px;
+  margin: 10px 0px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: crimson;
+}
+
+.productAddSideWrapper form .imagePreview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.productAddSideWrapper form .imagePreview img {
+  margin: 10px;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=updateProducts.css.map */

@@ -1,0 +1,22 @@
+.actionOfOrders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.actionOfOrders a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.actionOfOrders svg {
+  font-size: 1.5rem !important;
+  margin-right: 5px;
+  color: crimson !important;
+  cursor: pointer;
+}
+/*# sourceMappingURL=orders.css.map */

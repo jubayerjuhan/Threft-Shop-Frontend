@@ -1,0 +1,16 @@
+.sdcontainer {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 2;
+}
+.sdcontainer svg {
+  font-size: 1.3rem;
+  color: gray;
+}
+
+.profilePic {
+  width: 60px;
+  object-fit: contain;
+  border-radius: 50%;
+}

@@ -1,0 +1,38 @@
+.searchBox {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background: lightgray;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+
+  input[type="search"] {
+    height: 50px;
+    width: 400px;
+    outline: none;
+    text-indent: 20px;
+    font-size: clamp(1rem, 1vh, 1.2rem);
+    border-radius: 30px;
+    color: crimson;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  input[type="submit"] {
+    border: 2px solid transparent;
+    padding: 15px 30px;
+    margin: 0 10px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: crimson;
+    border-radius: 30px;
+    transition: all 300ms ease-in-out;
+    &:hover {
+      border: 2px solid crimson;
+      background-color: white;
+      color: crimson;
+    }
+  }
+}

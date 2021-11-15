@@ -1,0 +1,203 @@
+button {
+  cursor: pointer;
+}
+
+.productDetail {
+  max-width: 100vmax;
+  height: 100%;
+  margin: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Carousel-root-1 {
+  width: 500px;
+  margin-right: 50px;
+}
+
+.Carousel-root-1 .carousolImage {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.infoSection .productTitle {
+  font-size: clamp(0.8rem, 5vh, 3rem);
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.infoSection .productId {
+  font-size: clamp(0.8rem, 2vh, 1rem);
+  margin-bottom: 20px;
+}
+
+.infoSection .ratingSection {
+  margin-bottom: 20px;
+}
+
+.infoSection .ratingSection p {
+  font-size: clamp(0.8rem, 1.4vh, 1rem);
+  margin-top: 5px;
+}
+
+.infoSection .addCartSection .price {
+  font-size: clamp(0.8rem, 4vh, 2.4rem);
+  color: crimson;
+  margin-bottom: 20px;
+}
+
+.infoSection .quantitySelector {
+  margin-bottom: 20px;
+}
+
+.infoSection .quantitySelector .btn {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background: crimson;
+  border-radius: 30px;
+  margin-right: 5px;
+}
+
+.infoSection .quantitySelector input {
+  height: 30px;
+  margin-right: 5px;
+  width: 50px;
+  border: 2px solid crimson;
+  text-indent: 10px;
+  color: gray;
+  outline: none;
+  border-radius: 30px;
+}
+
+.infoSection .btn-big {
+  padding: 15px 35px;
+  border: none;
+  color: white;
+  font-size: clamp(0.9rem, 1vh, 2rem);
+  background-color: crimson;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  -webkit-transition: all 700ms ease;
+  transition: all 700ms ease;
+}
+
+.infoSection .btn-big:hover {
+  background: transparent;
+  color: crimson;
+  border: 2px solid crimson;
+}
+
+.infoSection .status {
+  margin: 20px 0;
+}
+
+.infoSection .green {
+  color: green;
+}
+
+.infoSection .red {
+  color: red;
+}
+
+.addReview {
+  margin: 30px 0px;
+}
+
+.addReview button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: crimson;
+  background-color: transparent;
+  border: 1px solid crimson;
+}
+
+.textArea {
+  outline: none;
+  font-family: "Inter";
+  margin: 10px;
+}
+
+.dialogWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  width: 300px;
+  height: 200px;
+}
+
+.dialogWrapper h3 {
+  margin-bottom: 10px;
+}
+
+.reviewContainer {
+  margin-top: 40px;
+  width: 100vmax;
+}
+
+.reviewContainer h4 {
+  margin-top: 20px;
+}
+
+.reviewContainer .titleContainer {
+  width: 180px;
+}
+
+.reviewContainer .titleContainer .title {
+  color: crimson;
+  border-bottom: 1px solid crimson;
+  padding-bottom: 5px;
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+@media (max-width: 800px) {
+  .Carousel-root-1 {
+    width: 300px;
+  }
+  .productDetail {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Carousel-root-1 {
+    margin: 0;
+  }
+  .infoSection {
+    justify-self: flex-start;
+  }
+  .infoSection {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=productDetail.css.map */

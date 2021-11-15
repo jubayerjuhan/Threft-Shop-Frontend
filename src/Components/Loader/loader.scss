@@ -1,0 +1,20 @@
+.loaderContainer {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  div {
+    height: 10vmax;
+    width: 10vmax;
+    // background-color: tomato;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.705);
+    border-radius: 50%;
+    animation: load 900ms linear infinite;
+  }
+
+  @keyframes load {
+    to {
+      transform: rotateZ(-360deg);
+    }
+  }
+}

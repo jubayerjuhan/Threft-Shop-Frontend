@@ -1,0 +1,62 @@
+@mixin flex($direction, $justify, $align, $wrap) {
+  display: flex;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+.footer-section {
+  background-color: #31343c;
+  .container {
+    margin: 0 7vw;
+  }
+}
+
+.footer {
+  @include flex(row, space-between, flex-start, wrap);
+  padding: 4rem 0;
+  .logo {
+    width: 100px;
+    object-fit: contain;
+  }
+  h6 {
+    color: #fff;
+    font-size: clamp(1.2rem, 3vh, 1.7rem);
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: fit-content;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+  }
+  a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: clamp(0.8rem, 1vh, 0.8rem);
+  }
+  p {
+    color: #fff;
+    line-height: 1.5em;
+    font-size: clamp(0.8rem, 1vh, 0.8rem);
+  }
+  div {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    max-height: 150px;
+    object-fit: contain;
+    flex-basis: 100%;
+  }
+  .footer {
+    div {
+      flex-basis: 40%;
+      margin-bottom: 25px;
+      margin-right: 20px;
+    }
+  }
+}

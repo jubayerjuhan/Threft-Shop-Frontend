@@ -1,0 +1,55 @@
+@mixin flex($direction, $align, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+.productHeading {
+  h2 {
+    margin: 50px auto;
+    width: 20vmax;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+  }
+}
+.productContainer {
+  @include flex(row, none, space-between);
+  flex-wrap: wrap;
+  padding: 3vmax 5vmax;
+}
+.pagination {
+  width: 100%;
+  margin: 20px auto;
+  ul {
+    justify-content: center;
+    li {
+      margin: 0 5px;
+    }
+  }
+}
+.css-1ov29gp {
+  min-height: 60px !important;
+}
+.filterbox {
+  width: 20vmax;
+  height: auto;
+  margin-left: 20px;
+}
+
+.dialogButton {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  filter: grayscale(100%);
+}
+@media (max-width: 768px) {
+  .productContainer {
+    justify-content: space-around;
+    flex-basis: 50%;
+  }
+}

@@ -1,0 +1,51 @@
+.notfound {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.notfound img {
+  width: 30vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.notfound .notFoundWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.notfound .notFoundWrapper .txtContainer {
+  -webkit-transform: translateX(-30%) translateY(30%);
+          transform: translateX(-30%) translateY(30%);
+}
+
+.notfound .notFoundWrapper h1 {
+  font-size: 3.6rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  color: #e54e6d;
+}
+
+.notfound .notFoundWrapper h3 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+  color: #2f2e41;
+  text-align: right;
+}
+/*# sourceMappingURL=NotFoundPage.css.map */

@@ -1,0 +1,87 @@
+.shippingPage {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shippingPage .shippingDetailsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shippingPage .shippingDetailsContainer h3 {
+  width: 300px;
+  text-align: center;
+  margin-bottom: 50px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.shippingPage .shippingDetailsContainer form {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.shippingPage .shippingDetailsContainer form .submitBtn {
+  padding: 12px;
+  background: crimson;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.shippingPage .shippingDetailsContainer form .formInput svg {
+  position: absolute;
+  color: crimson;
+  font-size: 1.6rem;
+  -webkit-transform: translate(25%, 35%);
+          transform: translate(25%, 35%);
+}
+
+.shippingPage .shippingDetailsContainer form .formInput input[type="text"],
+.shippingPage .shippingDetailsContainer form .formInput input[type="number"] {
+  height: 40px;
+  width: 300px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.shippingPage .shippingDetailsContainer form .formInput select {
+  height: 40px;
+  width: 340px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=shipping.css.map */

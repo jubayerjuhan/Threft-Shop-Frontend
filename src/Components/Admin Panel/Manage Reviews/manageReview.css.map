@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAC;EACpB,MAAM,EAAE,IAAI;CAYb;;AAbD,AAEE,qBAFmB,CAEnB,EAAE,CAAC;EACD,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,IAAI;CACb;;AANH,AAOE,qBAPmB,CAOnB,eAAe,CAAC;EACd,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,MAAM;CACf",
+    "sources": [
+        "manageReview.scss"
+    ],
+    "names": [],
+    "file": "manageReview.css"
+}

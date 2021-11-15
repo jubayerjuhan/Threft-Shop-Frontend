@@ -1,0 +1,33 @@
+.feat-product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  border-radius: 20px;
+  width: 250px;
+  margin: 20px 0;
+  text-decoration: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: rgb(39, 38, 38);
+  transition: all 300ms ease-in-out;
+  &:hover {
+    transform: translateY(-5%);
+  }
+  img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  h5 {
+    font-size: clamp(1rem, 2vh, 1.5rem);
+    margin-bottom: 10px;
+  }
+  span {
+    font-size: clamp(0.8rem, 2vh, 1rem);
+  }
+  .product-price {
+    margin: 10px 0;
+    font-size: clamp(1.4rem, 2vh, 2rem);
+    color: crimson;
+  }
+}
