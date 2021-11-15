@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import FeaturedProducts from "./../Homepage/Compos/Featured Products/FeaturedProducts";
 import { useDispatch, useSelector } from "react-redux";
 import { useAlert } from "react-alert";
-import Pagination from "@mui/material/Pagination";
+// import Pagination from "@mui/material/Pagination";
 import Slider from "@mui/material/Slider";
 import { getAllProducts } from "../../REDUX/Actions/productAction.js";
 import "./Products.css";
@@ -22,9 +22,9 @@ const Products = ({ match }) => {
   console.log(page);
   const keyword = match.params.keyword;
   console.log(keyword);
-  const totalPagination = Math.ceil(
-    allProducts?.productsCount / allProducts?.resultPerPage
-  );
+  // const totalPagination = Math.ceil(
+  //   allProducts?.productsCount / allProducts?.resultPerPage
+  // );
   const [priceValue, setPriceValue] = useState([0, 250000000]);
   const categories = ["Phone", "Camera", "Laptop", "Shoes", "Gadget"];
   const [category, setCategory] = useState("");
@@ -115,7 +115,7 @@ const Products = ({ match }) => {
               <FeaturedProducts product={product}></FeaturedProducts>
             ))}
           </div>
-
+          {/* 
           <div className="pagination">
             <Pagination
               count={totalPagination}
@@ -124,7 +124,7 @@ const Products = ({ match }) => {
               color="primary"
               onChange={(e, value) => setPage(value)}
             />
-          </div>
+          </div> */}
         </Fragment>
       )}
     </Fragment>
