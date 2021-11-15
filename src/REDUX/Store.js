@@ -2,7 +2,7 @@ import { createStore, combineReducers, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import thunk from 'redux-thunk'
 import { addProductReducer, addReviewReducer, adminProductReducer, deleteProductReducer, productReducer, singleProductReducer, updateProductReducer } from './Reducers/productReducers.js'
-import logger from 'redux-logger'
+// import logger from 'redux-logger'
 import { adminAllUserReducer, changePasswordReducer, deleteUserReducer, profileReducer, singleUserReducer, updateUserReducer, userReducer } from './Reducers/userReducer.js'
 import { cartReducer } from "./Reducers/cartReducer";
 import { adminAllOrdersReducer, deleteOrderReducer, orderReducer, singleOrderReducer, updateOrderReducer } from './Reducers/orderReducer.js'
@@ -34,7 +34,7 @@ const initialState = {
     shippingInfo: localStorage.shipping ? JSON.parse(localStorage.shipping) : {}
   }
 }
-const middlewares = [thunk, logger]
+const middlewares = [thunk]
 const store = createStore(reducer, initialState, composeWithDevTools(applyMiddleware(...middlewares)))
 
 export default store;
