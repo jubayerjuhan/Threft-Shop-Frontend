@@ -18,7 +18,7 @@ const Products = ({ match }) => {
   const dispatch = useDispatch();
   const { allProducts, error } = useSelector((state) => state.products);
   const alert = useAlert();
-  const [page, setPage] = useState(1);
+  const [page] = useState(1);
   console.log(page);
   const keyword = match.params.keyword;
   console.log(keyword);
