@@ -19,6 +19,7 @@ const Login = ({ location }) => {
   console.log("location", location);
   const redirect = location.search ? location.search.split("=")[1] : "/";
   if (isAuthenticated) {
+    window.location.reload(false);
     history.push(redirect);
   }
   const initialState = {
